@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>The Drummer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="page">
+            <h1>The Drummer</h1>
+            <p>
+                <button id="kick" class="button buttonkick"> Kick </button>
+                <button id="snare" class="button buttonsnare"> Snare </button>
+                <button id="hihat" class="button button buttonhihat"> Hi-Hat </button>
+                <button id="clap" class="button buttonclap"> Clap </button>
+                <button id="hitom" class="button buttonhitom"> Hi-Tom </button>
+                <button id="lowtom" class="button buttonlowtom"> Low-Tom </button>
+
+                <button id="clear" class="clearall"> Clear all! </button>
+
+                <br><br><br><br><br>
+
+                <input id="kickvolume" type="range" min="0" max="10" value="10">
+                <input id="snarevolume" type="range" min="0" max="10" value="10">
+                <input id="hihatvolume" type="range" min="0" max="10" value="10">
+                <input id="clapvolume" type="range" min="0" max="10" value="10">
+                <input id="tom1volume" type="range" min="0" max="10" value="10">
+                <input id="tom2volume" type="range" min="0" max="10" value="10">
+
+                <input id="tempo" type="range" min="200" max="600" value="400">
+            </p>
+            
+            <p id="info">
+
+                <br><br><br><br>
+            </p>
+
+            <p>
+                <button id="time1" class="buttontime">
+                    <span data-nr = "0">1</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time2" class="buttontime">
+                    <span data-nr = "0">2</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time3" class="buttontime">
+                    <span data-nr = "0">3</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time4" class="buttontime">
+                    <span data-nr = "0">4</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time5" class="buttontime">
+                    <span data-nr = "0">5</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time6" class="buttontime">
+                    <span data-nr = "0">6</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time7" class="buttontime">
+                    <span data-nr = "0">7</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time8" class="buttontime">
+                    <span data-nr = "0">8</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time9" class="buttontime">
+                    <span data-nr = "0">9</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time10" class="buttontime">
+                    <span data-nr = "0">10</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time11" class="buttontime">
+                    <span data-nr = "0">11</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time12" class="buttontime">
+                    <span data-nr = "0">12</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time13" class="buttontime">
+                    <span data-nr = "0">13</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time14" class="buttontime">
+                    <span data-nr = "0">14</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time15" class="buttontime">
+                    <span data-nr = "0">15</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="time16" class="buttontime">
+                    <span data-nr = "0">16</span>
+                    <div class="block" data-nr = "1"></div>
+                    <div class="block" data-nr = "2"></div>
+                    <div class="block" data-nr = "3"></div>
+                    <div class="block" data-nr = "4"></div>
+                    <div class="block" data-nr = "5"></div>
+                    <div class="block" data-nr = "6"></div>
+                </button>
+                <button id="start" class="buttonstart"> Start! </button>
+                <br>
+                <div id="sequence"></div>
+                <div id="bpmdisplay">BPM:</div>
+            </p>
+            <div id="samplecontainer">
+                <button id="previous" class="buttontime"> - </button>
+
+                <button id="next" class="buttontime"> + </button>
+                <br><br>
+                <div id="sample">Samplepack: 0</div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+
+

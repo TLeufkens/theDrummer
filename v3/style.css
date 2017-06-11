@@ -1,0 +1,496 @@
+#page{
+    top: 20%;
+    left: 10%;
+    margin: auto;
+    width: 80%;
+    background-color: #e6e6e6;
+    padding: 20px;
+    text-align:center;
+    position: absolute;
+    border-radius: 15px;
+}
+
+#samplecontainer{
+    top: 450px;
+    left: 80px;
+    position: absolute;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    text-align:center;
+
+}
+
+body{
+    background-image: url("img/bg.jpg");
+    margin:auto;
+    background-repeat :     no-repeat;
+    display: block;
+    width: 67%;
+    height: 67%;
+}
+
+.kickactive {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+
+    background-image :      url('img/red.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.snareactive {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+
+    background-image :      url('img/yellow.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.hihatactive {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+
+    background-image :      url('img/blue.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.clapactive {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+
+    background-image :      url('img/green.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.hitomactive {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+
+    background-image :      url('img/purple.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.lowtomactive {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+
+    background-image :      url('img/brown.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+}
+
+.buttonkick {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-image :      url('img/red.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.buttonkick:hover {
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+.buttonsnare {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-image :      url('img/yellow.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.buttonsnare:hover {
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+.buttonhihat {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-image :      url('img/blue.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.buttonhihat:hover {
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+.buttonclap {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-image :      url('img/green.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.buttonclap:hover {
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+.buttonhitom {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-image :      url('img/purple.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.buttonhitom:hover {
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+.buttonlowtom {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    background-image :      url('img/brown.png');
+    background-repeat :     no-repeat;
+    background-size :       8px 8px;
+    background-position :   top right;
+}
+
+.buttonlowtom:hover {
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+input[type=range] {
+
+    -webkit-transform: rotate(270deg);
+    top:500px;
+    margin-left: 57px;
+
+}
+
+.buttontime {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 80px;
+    height: 50px;
+}
+
+.buttontime:hover {
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+.clearall{
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    right: 2%;
+    position: absolute;
+}
+
+.clearall:hover{
+    background-color: white;
+    color: crimson;
+    cursor: pointer;
+}
+
+.buttonstart {
+    background-color: limegreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 40px;
+
+}
+
+.buttonstart:hover{
+    background-color: white;
+    color: limegreen;
+    cursor: pointer;
+}
+
+.buttonstop {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 40px;
+
+}
+
+.buttonstop:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+#tempo{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+
+}
+
+#sequence {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    left: 87px;
+    position: absolute;
+    background: coral;
+}
+
+#bpmdisplay {
+    width: 110px;
+    height: 30px;
+    left: 1585px;
+    top: 310px;
+    background-color: black;
+    position: absolute;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#bpmdisplay {
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 125%;
+}
+
+
+.buttontime div{
+    width: 8px;
+    height: 8px;
+    margin-top:0px;
+    background:black;
+    position: relative;
+    top: -32px;
+    left: 40px;
+
+}
+
+.kickaan{
+    background-image :      url('img/red.png'),
+                            url('img/black.png');
+    background-repeat :     no-repeat,
+                            repeat;
+    background-size :       8px 8px,
+                            100%;
+    background-position :   top right,
+                            top left;
+}
+
+.snareaan{
+    background-image :      url('img/yellow.png'),
+                            url('img/black.png');
+    background-repeat :     no-repeat,
+                            repeat;
+    background-size :       8px 8px,
+                            100%;
+    background-position :   top right,
+                            top left;
+}
+
+.hihataan{
+    background-image :      url('img/blue.png'),
+                            url('img/black.png');
+    background-repeat :     no-repeat,
+                            repeat;
+    background-size :       8px 8px,
+                            100%;
+    background-position :   top right,
+                            top left;
+}
+
+.clapaan{
+    background-image :      url('img/green.png'),
+                            url('img/black.png');
+    background-repeat :     no-repeat,
+                            repeat;
+    background-size :       8px 8px,
+                            100%;
+    background-position :   top right,
+                            top left;
+}
+
+.hitomaan{
+    background-image :      url('img/purple.png'),
+                            url('img/black.png');
+    background-repeat :     no-repeat,
+                            repeat;
+    background-size :       8px 8px,
+                            100%;
+    background-position :   top right,
+                            top left;
+}
+
+.lowtomaan{
+    background-image :      url('img/brown.png'),
+                            url('img/black.png');
+    background-repeat :     no-repeat,
+                            repeat;
+    background-size :       8px 8px,
+                            100%;
+    background-position :   top right,
+                            top left;
+}
+
+
+
+
+
+
+
+
+
+
